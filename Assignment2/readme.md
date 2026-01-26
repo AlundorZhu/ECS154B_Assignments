@@ -55,16 +55,16 @@ You can find the starter code is provided in [cpu.sv](cpu.sv)
 Below is the test program in assemble.
 
 ```
-addi r0, 5      # r0 = 5
-addi r1, 10     # r1 = 10
-add  r0, r1     # r0 = r0 + r1 = 15
-lw   r1, r0     # r1 = mem[r0] = mem[15] = 15
-beq  1          # if (r0 == r1) skip next instruction
-halt            # should be skipped
-addm r0, r0     # r0 = r0 + mem[r0] = 15 + mem[15] = 30
-addi r1, 7      # r1 = 15 + 7 = 22
-sub  r0, r1     # r0 = r0 - r1 = 30 - 22 = 8
-sw   r0, r1     # mem[r1] = r0 = mem[22] = 8
-halt            # end of program
+0. addi r0, 5      # r0 = 5
+1. addi r1, 7      # r1 = 7
+2. add  r0, r1     # r0 = r0 + r1 = 12
+3. lw   r1, r0     # r1 = mem[r0] = mem[12] = 12
+4. beq  1          # if (r0 == r1) skip next instruction
+5. halt            # should be skipped
+6. addm r0, r0     # r0 = r0 + mem[r0] = 12 + mem[12] = 24
+7. addi r1, 7      # r1 = 12 + 7 = 19
+8. sub  r0, r1     # r0 = r0 - r1 = 24 - 19 = 5
+9. sw   r0, r1     # mem[r1] = r0 = mem[19] = 5
+10. halt            # end of program
 ```
-The provided testbench [CPU_tb.sv](CPU_tb.sv) runs this program and checks that the final values in registers and memory are correct. You can modify the testbench or write your own to test additional cases.
+The provided testbench [cpu_tb.sv](cpu_tb.sv) runs this program and checks that the final values in registers and memory are correct. You can modify the testbench or write your own to test additional cases.
