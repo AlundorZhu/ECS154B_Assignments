@@ -73,4 +73,4 @@ Below is the test program in assemble.
 The provided testbench [cpu_tb.sv](cpu_tb.sv) runs this program and checks that the final values in registers and memory are correct. You can modify the testbench or write your own to test additional cases.
 
 ## Submission
-under construction
+Submit your `cpu.sv` file to Gradescope by 23:59 Feb. 6.
