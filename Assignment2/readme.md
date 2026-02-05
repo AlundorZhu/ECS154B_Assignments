@@ -7,7 +7,7 @@ In 154A you made a CPU in Logisim. Here, you will make a CPU in SystemVerilog.
 
 ![CPU](CPU.png)
 
-This is the CPU from the [Generic CPU](https://canvas.ucdavis.edu/courses/1035776/files/29845499?wrap=1)
+This is the CPU from the [Generic CPU](https://canvas.ucdavis.edu/courses/1035776/files/29845499?wrap=1). One enhancement you could do is to use a mux to select whether PC+1 or do a branch/jump like in [Single Cycle CPU](https://canvas.ucdavis.edu/courses/1035776/files/29939594?wrap=1), this could save you some cycles/states.
 
 ## Instructions Set Architecture
 **Instead of design closely following the diagram, you should design according to the instruction set architecture (ISA).**
