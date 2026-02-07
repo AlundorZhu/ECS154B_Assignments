@@ -22,7 +22,7 @@ This is the CPU from the [Generic CPU](https://canvas.ucdavis.edu/courses/103577
 | lw                 | 0110   | rds=mem[rs] |
 | sw                 | 0111   | mem[rs]=rds |
 | beq                | 1000   | if (rds==rs) PC=PC+offset+1 (offset is sign extended) |
-| jmp                | 1001   | PC=PC+offset (offset is sign extended) |
+| jmp                | 1001   | PC=PC+offset+1 (offset is sign extended) |
 | halt               | 1111   | stop execution |
 
 ### The machine has 3 different instruction formats:  A, B, and C.
