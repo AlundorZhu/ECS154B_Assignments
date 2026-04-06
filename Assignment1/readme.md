@@ -17,7 +17,7 @@ Click [GTKWave](https://gtkwave.github.io/gtkwave/) and follow instructions for 
 Read [This tutorial](https://www.asic-world.com/verilog/verilog_one_day.html) to get familiar with verilog/systemverilog syntax. Ask google/chatgpt to learn more about systemverilog.
 
 # N to 1 Multiplexer
-Finish the [muxNto1.sv](muxNto1.sv) file to implement an N to 1 multiplexer. The parameter N is defined as a parameter in the module. The width of each input and output is defined by the parameter WIDTH. The select signal will not select an input outside the range of N inputs.
+Finish the [muxNto1.sv](muxNto1.sv) file to implement an `N` to 1 multiplexer. `N` is defined as a parameter in the module. The width of each input and output is defined by the parameter `WIDTH`. The select signal will not select an input outside the range of `N` inputs.
 
 # Test
 Compile the testbench:
@@ -35,10 +35,13 @@ gtkwave mux_test.vcd
 Click `muxNto1_tb` and then double click the signals you want to view on the bottom left panel. 
 
 # Vending Machine
-Implement a mealy model of a vending machine in [vending_machine.sv](vending_machine.sv). The vending machine accepts nickel and dime only. When a total of 30 cents is inserted, the machine dispenses a product and returns any change if necessary. Use the testbench [vending_machine_tb.sv](vending_machine_tb.sv) to test your design.
+Implement a **mealy** model of a vending machine in [vending_machine.sv](vending_machine.sv). 
+1.  The vending machine accepts nickel (5 cents) and dime (10 cents) only. 
+2. When a total of 30 cents is inserted, the machine dispenses a product and returns any change if necessary. 
+3. Use the testbench [vending_machine_tb.sv](vending_machine_tb.sv) to test your design.
 
 ## Test
 Use the same commands as above, replacing `muxNto1` with `vending_machine`.
 
 # Submission
-Submit your completed `muxNto1.sv`, `vending_machine.sv` files on Gradescope. Assignments due by 11:59 PM on Friday, January 23rd. 
+Submit your completed `muxNto1.sv`, `vending_machine.sv` files on Gradescope. Assignments due by 11:59 PM on Friday, April 10th. 
