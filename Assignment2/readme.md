@@ -7,7 +7,7 @@ In 154A you made a CPU in Logisim. Here, you will make a CPU in SystemVerilog.
 
 ![CPU](CPU.png)
 
-This is the CPU from the [Generic CPU](https://canvas.ucdavis.edu/courses/1035776/files/29845499?wrap=1). One enhancement you could do is to use a mux to select whether PC+1 or do a branch/jump like in [Single Cycle CPU](https://canvas.ucdavis.edu/courses/1035776/files/29939594?wrap=1), this could save you some cycles/states.
+This is the CPU from the [Generic CPU](https://canvas.ucdavis.edu/files/30703207/download?download_frd=1). One enhancement you could do is to use a mux to select whether PC+1 or do a branch/jump like in [Single Cycle CPU](https://canvas.ucdavis.edu/files/30703208/download?download_frd=1), this could save you some cycles/states.
 
 The memory in starter code has a single port, so you can only read or write in a cycle. But you can change the design to give it two ports, then you will be able to implement a single cycle CPU.
 
