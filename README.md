@@ -9,7 +9,7 @@ Tentative plan: Assignment 1 and 2 are using Hardware Design Language SystemVeri
   - Fix around mongoDB error [here](Assignment3/mongoDB_error.md)
   - Note: You might need to sign up for [student developer pack](https://education.github.com/pack) to use github codespaces
   - Or use docker container to do it [locally](#starting-locally)
-- Assignment 4: 
+- [Assignment 4](https://classroom.github.com/a/VqnPv1dd): Monday of Week 7 
 
 ## Pull Requests
 You are welcome to do pull requests if you see any bugs or have any improvements to suggest.
