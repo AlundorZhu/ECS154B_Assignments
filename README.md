@@ -11,6 +11,7 @@ Tentative plan: Assignment 1 and 2 are using Hardware Design Language SystemVeri
   - Or use docker container to do it [locally](#starting-locally)
 - [Assignment 4](https://classroom.github.com/a/VqnPv1dd): Monday of Week 7 
   - use `100` for the size of the matrix
+- [Assignment 5](https://classroom.github.com/a/PjxOZmd1): Friday of Week 8
 
 ## Pull Requests
 You are welcome to do pull requests if you see any bugs or have any improvements to suggest.
