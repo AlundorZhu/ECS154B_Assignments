@@ -12,6 +12,7 @@ Tentative plan: Assignment 1 and 2 are using Hardware Design Language SystemVeri
 - [Assignment 4](https://classroom.github.com/a/VqnPv1dd): Monday of Week 7 
   - use `100` for the size of the matrix
 - [Assignment 5](https://classroom.github.com/a/PjxOZmd1): Friday of Week 8
+  - Assignment 5 [FAQ](./pipeline_faq.md) 
 
 ## Pull Requests
 You are welcome to do pull requests if you see any bugs or have any improvements to suggest.
