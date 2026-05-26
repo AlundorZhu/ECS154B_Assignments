@@ -13,6 +13,9 @@ Tentative plan: Assignment 1 and 2 are using Hardware Design Language SystemVeri
   - use `100` for the size of the matrix
 - [Assignment 5](https://classroom.github.com/a/PjxOZmd1): Friday of Week 8
   - Assignment 5 [FAQ](./pipeline_faq.md) 
+- [Assignment 6](https://classroom.github.com/a/ORgoYycM): End of Week 10
+  - Run the SE mode only, see [the doc](Assignment5/local_resource.md)
+  - Get the FS mode stats [here](https://drive.google.com/drive/folders/1YeERzmyMdDjyNYEFsrlUu_JerKyLh6JN?usp=sharing) 
 
 ## Pull Requests
 You are welcome to do pull requests if you see any bugs or have any improvements to suggest.
